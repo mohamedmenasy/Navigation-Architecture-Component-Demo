@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TestNavigation</string>
+
+    <string name="go_to_settings_screen">Go To Settings Screen</string>
+    <string name="go_to_account_screen">Go to Account Screen</string>
+    <string name="account_screen">Account Screen</string>
+    <string name="settings_screen">Settings Screen</string>
+</resources>
