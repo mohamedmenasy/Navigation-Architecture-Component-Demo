@@ -23,7 +23,9 @@ class MainFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         btnGotoSettingsScreen.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_mainFragment_to_settingsFragment))
-        btnGoToAccountScreen.setOnClickListener { it.findNavController().navigate(R.id.action_mainFragment_to_accountFragment) }
+        btnGoToAccountScreen.setOnClickListener {
+            it.findNavController().navigate(R.id.action_mainFragment_to_accountFragment)
+        }
     }
 
 }
